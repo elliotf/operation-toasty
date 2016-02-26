@@ -1,0 +1,37 @@
+{
+  "name": "operation-toasty",
+  "version": "0.0.1",
+  "keywords": [
+    "iot",
+    "home automation"
+  ],
+  "description": "a whole house thermostat",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elliotf/operation-toasty.git"
+  },
+  "author": "Elliot Foster",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "*",
+    "dirty-chai": "^1.2.2",
+    "mocha": "*",
+    "mocha-sinon": "*",
+    "nodemon": "^1.9.1",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "dependencies": {
+    "bookshelf": "*",
+    "config": "^1.19.0",
+    "knex": "*",
+    "mithril": "^0.2.2-rc.1",
+    "moment": "^2.11.2",
+    "mysql2": "^0.15.8",
+    "underscore.string": "^3.3.4"
+  }
+}
