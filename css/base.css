@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.controls {
+  font-size: 96px;
+  width: 128px;
+  line-height: 96px;
+  position: relative;
+  padding: 12px;
+  margin-right: 48px;
+  text-align: right;
+}
+
+.controls .button {
+  position: absolute;
+  right: -48px;
+  width: 48px;
+  font-size: 48px;
+}
+
+.controls .button.up {
+  top: 10px;
+}
+.controls .button.down {
+  bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.clock {
+  width: 500px;
+  font-size: 36px;
+  text-align: center;
+  padding: 12px;
+}
+
+.clock .date {
+  padding-bottom: 12px;
+}
+
+body {
+  background-color: #263238;
+  color: #ffffff;
+  margin: 0px;
+  padding: 12px;
+  font-family: Sans-Serif;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently */
+}
+
+
